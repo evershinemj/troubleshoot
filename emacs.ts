@@ -19,7 +19,7 @@ solution:
 
 weird: emacs first uses /Users/wangxueming/AppData/Roaming/.emacs as init file, but later on uses /Users/wangxueming/.emacs instead
 solution:
-		note how tilt expansion works. `~` is expanded according to $HOME! hence when $HOME is set or changed, `~` is expanded
+		note how tilde expansion works. `~` is expanded according to $HOME! hence when $HOME is set or changed, `~` is expanded
 	differently. hence the root cause is that $HOME is not set at first, and by default(on windows only), emacs recoginizes
 	/Users/wangxueming/AppData/Roaming/ as `~`£¬but then HOME is set to /Users/wangxueming/, and `~` is accordingly set to
 	/Users/wangxueming/.
