@@ -30,3 +30,4 @@ solution:
 		when HOME is not set, M-/ fetches files under /Users/wangxueming/AppData/Roaming/ as completions, which again proves that
 	`~` is expanded to /Users/wangxueming/AppData/Roaming/ 
 		for cross-platform consideration and for the sake of making life easier, set HOME to /Users/wangxueming/.
+                plus: refer to ~/how-emacs-finds-your-init-file.txt
